@@ -1,0 +1,146 @@
+	/* CSS pour body */
+
+.bodyAllume {
+	background-color: white;
+	text-align: center;
+}
+.bodyEteind {
+	background-color: black;
+	text-align: center;
+}
+	/* CSS pour les div */
+.boutonEteind {
+	position: fixed;
+	width: 150px;
+	height: 50px;
+
+	left: 50%;
+	margin-left: -75px;
+	top: 5%;
+
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+
+	background-color: #E0F2F7;
+	border: 1px solid #F6CED8;
+	border-radius: 10px;
+	}
+.boutonAllume {
+	position: fixed;
+	width: 150px;
+	height: 50px;
+
+	left: 50%;
+	margin-left: -75px;
+	top: 5%;
+
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+
+	background-color: #424242;
+	border: 1px solid #CEECF5;
+	border-radius: 10px;
+}
+.corpsAllume{
+	position: absolute;
+	width: 550px;
+	height: 350px;
+	top: 50%;
+	left: 50%;
+	margin-top: -175px;
+	margin-left: -275px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	background-color: #F2F2F2;
+	border: solid 2px #A4A4A4;
+}
+.corpsEteind{
+	position: absolute;
+	width: 550px;
+	height: 350px;
+	top: 50%;
+	left: 50%;
+	margin-top: -175px;
+	margin-left: -275px;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	background-color: #6E6E6E;
+	border: solid 2px white;
+}
+div#toTop{
+	display: none;
+	position: fixed;
+	width: 100px;
+	height: 50px;
+
+	margin-left: 10%;
+	top: 80%;
+
+	color: black;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+
+	background-color: #F2F2F2;
+	border: 1px solid #A4A4A4;
+	border-radius: 10px;
+}
+div#corpsTable{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.annot {
+	color: blue;
+	text-align: center;
+}
+
+	/* CSS pour table */
+
+	/* CSS pour form */
+
+.formulaire{
+	text-align: left;
+	margin-left: 60px;
+}
+
+.labelRecherche{
+	display: block;
+	width: 75px;
+	float: left;
+}
+.buttonDiv{
+	text-align: center;
+}
+input#nom:focus, input#nom:hover, input#prenom:focus, input#prenom:hover, input#lieu:focus, input#lieu:hover {
+	border: 1px solid blue;
+	background-color: #EFFBFB;
+}
+	/* CSS pour p */
+
+p#textNom, p#textPrenom, p#textLieu{
+	font-size: 14px;
+	color: red;
+	display: none;
+}
+
+	/* CSS pour les liens */
+
+.lienTop {
+	color: black;
+	font-style: none;
+	text-decoration: none;
+}
+.lienAllume:link, .lienAllume:visited, .lienAllume:hover{
+	text-decoration: none;
+	color: white;
+}
+.lienEteind:link, .lienEteind:visited, .lienEteind:hover{
+	text-decoration: none;
+	color: black;
+}
